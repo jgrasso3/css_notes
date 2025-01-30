@@ -1,0 +1,28 @@
+body {
+  background: radial-gradient(#0288d1, #01579b);
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 25px 40px;
+  position: relative;
+}
+
+/* the badge is absolute relative to the btn */
+.badge {
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: green;
+  padding: 5px 10px;
+  top: -10px;
+  right: -10px;
+}

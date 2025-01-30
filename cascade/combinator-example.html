@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div p {
+  background-color: red;
+}
+div > p {
+  background-color: yellow;
+}
+h2 + p {
+  background-color: blue;
+}
+div ~ p {
+  background-color: green;
+}
+</style>
+</head>
+<body>
+
+<h2>Child Selector</h2>
+
+<p>Adjacent Sibling of h2.</p>
+
+<div>
+  <p>Paragraph 1 child of div.</p>
+  <p>Paragraph 2 child of div.</p>
+  <section>
+    <!-- not Child but Descendant -->
+    <p>Paragraph 3 descendant of div.</p>
+  </section>
+  <p>Paragraph 4 child of div.</p>
+</div>
+
+<p>Paragraph 5. adjacent sibling of div.</p>
+<p>Paragraph 6. sibling of.</p>
+
+</body>
+</html>

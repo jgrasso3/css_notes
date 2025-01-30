@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+}
+
+span {
+  color: orange;
+}
+
+.edge {
+  width: 100%;
+  background-color: rgba(98, 0, 255, 0.712);
+  text-align: center;
+  color: white;
+}
+
+header.edge {
+  height: 100vh;
+  text-align: center;
+  color: white;
+
+  /* some bs several lectures ahead */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sub-header {
+  text-align: center;
+  font-family: serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+header h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+section h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+section h1 + p {
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 30px 0;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 14px;
+  border-left: 2px solid orange;
+  padding: 0 0 0 16px;
+  margin: 32px 0 32px 32px;
+}
+
+.quote cite {
+  display: block;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 28px 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 16px;
+}
+
+footer li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

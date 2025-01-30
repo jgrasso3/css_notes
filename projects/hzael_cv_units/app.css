@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Forum', serif;
+}
+
+.hero {
+  background-color: #f08e80;
+  /* set min to be at least 90vh but take up as much as you need afterwards in case of small screens */
+  min-height: 90vh;
+  color: white;
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+}
+
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 1.2rem;
+}
+
+.navbar p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar .contact {
+  background-color: white;
+  color: #f08e80;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+
+.navbar .contact:hover {
+  opacity: .8;
+}
+
+.center {
+  padding: 0 15%;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 550;
+  letter-spacing: 2px;
+  padding: 32px 0;
+}
+
+.two-col-sec {
+  font-size: 2rem;
+}
+
+.two-col-sec > p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.two-col-sec .skills {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+
+.two-col-sec .skills li {
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
+
+.blog-section {
+  background-color: gold;
+  padding: 64px 0;
+}
+
+.blog-content {
+  padding: 0 15%;
+}
+
+.two-col-sec .post {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.blog {
+  background-color: white;
+  padding: 64px 0;
+}
+
+.post {
+  margin-top: 24px;
+}
+
+.post p {
+  margin: 8px 0;
+}
+
+.post-heading {
+  font-size: 1.5rem;
+}
+
+.post-text {
+  font-size: 1rem;
+}
+
+.post .post-date {
+  font-size: .9rem;
+  margin-bottom: 32px;
+  color: grey;
+}
+
+.events {
+  background-color: #fdf0e6;
+  padding: 64px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
+}
